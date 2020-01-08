@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c87b3104-167c-48b3-a008-d7e852cfdc5f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="douban: schema" type="f0f64354:MongoImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="douban: schema" type="f0f64354:MongoImplModel$Schema" />
+        <item name="MovieTop250: table" type="531e99d1:MongoImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="douban: schema" type="f0f64354:MongoImplModel$Schema" />
+        <item name="MusicTop250: table" type="531e99d1:MongoImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W6fbAuefimIiJyEK6qr5KlP36z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doubanTop250/spiders" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code_Repo\Python\doubanTop250\doubanTop250\commands" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.crawlall">
+    <configuration name="MovieTop250" type="PythonConfigurationType" factoryName="Python">
+      <module name="doubanTop250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ENVIRONMENT\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubanTop250/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy" />
+      <option name="PARAMETERS" value="crawl MovieTop250" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MusicTop250" type="PythonConfigurationType" factoryName="Python">
+      <module name="doubanTop250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ENVIRONMENT\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubanTop250/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy" />
+      <option name="PARAMETERS" value="crawl MusicTop250" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="doubanTop250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ENVIRONMENT\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubanTop250/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy" />
+      <option name="PARAMETERS" value="crawl top250" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="crawlall" type="PythonConfigurationType" factoryName="Python">
+      <module name="doubanTop250" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ENVIRONMENT\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubanTop250/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="scrapy" />
+      <option name="PARAMETERS" value="crawlall" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.MovieTop250" />
+      <item itemvalue="Python.MusicTop250" />
+      <item itemvalue="Python.crawlall" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stringCut" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.14123377" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c87b3104-167c-48b3-a008-d7e852cfdc5f" name="Default Changelist" comment="" />
+      <created>1578475033604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578475033604</updated>
+      <workItem from="1578475038785" duration="8175000" />
+      <workItem from="1578488770875" duration="3801000" />
+      <workItem from="1578493719858" duration="6152000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="364" y="164" width="1092" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578498834645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="364" y="164" width="1092" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578498834645" />
+    <state x="721" y="368" key="FileChooserDialogImpl" timestamp="1578491225774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="368" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578491225774" />
+    <state width="1877" height="530" key="GridCell.Tab.0.bottom" timestamp="1578499875943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="530" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875943" />
+    <state width="1877" height="530" key="GridCell.Tab.0.center" timestamp="1578499875942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="530" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875942" />
+    <state width="1877" height="530" key="GridCell.Tab.0.left" timestamp="1578499875942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="530" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875942" />
+    <state width="1877" height="530" key="GridCell.Tab.0.right" timestamp="1578499875942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="530" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875942" />
+    <state width="1877" height="571" key="GridCell.Tab.1.bottom" timestamp="1578499875940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="571" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875940" />
+    <state width="1877" height="571" key="GridCell.Tab.1.center" timestamp="1578499875940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="571" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875940" />
+    <state width="1877" height="571" key="GridCell.Tab.1.left" timestamp="1578499875940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="571" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875940" />
+    <state width="1877" height="571" key="GridCell.Tab.1.right" timestamp="1578499875940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="571" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578499875940" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1578490763695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1578490763695" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578491241765">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578491241765" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578486369236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578486369236" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/doubanTop250$movieScrapy.coverage" NAME="movieScrapy Coverage Results" MODIFIED="1578494473548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop250/spiders" />
+    <SUITE FILE_PATH="coverage/doubanTop250$stringCut.coverage" NAME="stringCut Coverage Results" MODIFIED="1578496887636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop250/spiders" />
+    <SUITE FILE_PATH="coverage/doubanTop250$scrapy.coverage" NAME="scrapy Coverage Results" MODIFIED="1578492078438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop250/spiders" />
+    <SUITE FILE_PATH="coverage/doubanTop250$crawlall.coverage" NAME="crawlall Coverage Results" MODIFIED="1578499655349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop250/spiders" />
+    <SUITE FILE_PATH="coverage/doubanTop250$MusicTop250.coverage" NAME="MusicTop250 Coverage Results" MODIFIED="1578498597425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop250/spiders" />
+  </component>
+</project>
